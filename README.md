@@ -13,4 +13,10 @@ These are the things that need to be updated in the addon:
 - [ ] if any demo URL or homepage is referenced, it should be updated. At the very least, file an issue on the repo so the adopter can fix
 
 ## Adopting an addon
-Anyone can submit a pull request to help maintain an addon in this repo! It's also possible that you'd like to wear more of an official maintainer hat, and that's cool too! If you want to help maintain one of these addons, please open an issue that requests to be added as a contributor. You'll be contacted in Ember Discord (just so we know who you are!) and we'll make sure that you have 2FA set up for GitHub. and then we can add you as a contributor. 
+Anyone can submit a pull request to help maintain an addon in this repo! 
+
+It's also possible that you'd like to wear more of an official maintainer hat, and that's cool too! If you want to help maintain one of these addons:
+- please open an issue that requests to be added as a contributor or ping melsumner on Ember Discord 
+- make sure you have 2FA set up for GitHub
+
+Once we've had a chat, we can add you as a contributor. Easy-peasy!
