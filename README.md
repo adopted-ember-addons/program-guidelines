@@ -2,10 +2,10 @@
 Sometimes an Ember addon needs a new maintainer. In order to make this a consolidated community effort, we started Adopted Ember Addons, an org where community members can find a new home for their ember addon. 
 
 ## Getting your addon adopted
-- To get your addon adopted, please ping melsumner in [Ember Discord](https://discord.gg/emberjs) chat and let her know what repo you'd like to transfer. 
-- Once she's aware, complete the Addon Transfer checklist (below).
-- after the checklist is complete, transfer the repo to melsumner here on Github. 
-- The addon will then be transferred to this org (Adopted Ember Addons). 
+- To get your addon adopted, please ping one of the adopted-ember-addons org owners (`@Melanie#1618`, `@Alon#3707`, or `@knownasilya#9990`) in [Ember Discord](https://discord.gg/emberjs) chat and let them know what repo you'd like to transfer. 
+- Once they are aware, complete the Addon Transfer checklist (below).
+- after the checklist is complete, transfer the repo to them here on Github. 
+- The org owner is then responsible to transfer the addon to this org (Adopted Ember Addons). 
 
 ** Warning: You cannot ever fork the repo to the same account it was transferred from -- it will break GitHub's redirect of the old URL to the new **
 
@@ -14,7 +14,7 @@ These are the things that need to done to transfer your addon:
 - [ ] Update the package.json repository field to point to the new location
 - [ ] If any demo URL or homepage is referenced, it should be updated. At the very least, file an issue on the repo so the adopter can fix
 - [ ] Ensure Release practices are documented
-- [ ] Add `adopted-ember-addons` to the maintainers of the package on `npm`. Remove other maintainers. 
+- [ ] Add at least one of the adopted-ember-addons org owners (`melsumner`, `alonbukai`, or `knownasilya`) to the maintainers of the package on `npm`. Remove other maintainers. 
 
 ## Adopting an addon
 Anyone can submit a pull request to help maintain an addon in this repo! 
