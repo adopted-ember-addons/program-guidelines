@@ -30,8 +30,8 @@ Once we've had a chat, we can add you as a contributor. Easy-peasy!
 By standardizing some aspects of maintaining addons we can ensure a consistent experience for contributers and maintainers.
 
 * If your addon does not have a changelog, consider adding one
-  * Changelogs are important to communicate to end users what is going on with the project. See [keepachangelog.com](https://keepachangelog.com/en/1.0.0/) for additional reasoning.
-	* Robert Jackson (@rwjblue) has automated the initial setup of automatic changelog generation using some popular tools. Follow the steps in [create-rwjblue-release-it-setup](https://github.com/rwjblue/create-rwjblue-release-it-setup). You can see an example of how that works in [ember-pikaday](https://github.com/adopted-ember-addons/ember-pikaday).
+	- Changelogs are important to communicate to end users what is going on with the project. See [keepachangelog.com](https://keepachangelog.com/en/1.0.0/) for additional reasoning.
+	- Robert Jackson (@rwjblue) has automated the initial setup of automatic changelog generation using some popular tools. Follow the steps in [create-rwjblue-release-it-setup](https://github.com/rwjblue/create-rwjblue-release-it-setup). You can see an example of how that works in [ember-pikaday](https://github.com/adopted-ember-addons/ember-pikaday).
 
 * use standard labels for issues and pull requests.
 	* defer to the learning team's recommendations and [lerna-changelog](https://github.com/lerna/lerna-changelog)'s defaults.
