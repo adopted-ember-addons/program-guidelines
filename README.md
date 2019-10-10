@@ -2,7 +2,7 @@
 Sometimes an Ember addon needs a new maintainer. In order to make this a consolidated community effort, we started Adopted Ember Addons, an org where community members can find a new home for their ember addon. 
 
 ## Getting your addon adopted
-- To get your addon adopted, please ping one of the adopted-ember-addons org owners (`@Melanie#1618`, `@Alon#3707`, or `@knownasilya#9990`) in [Ember Discord](https://discord.gg/emberjs) chat and let them know what repo you'd like to transfer. 
+- To get your addon adopted, please ping one of the adopted-ember-addons org owners (`@Melanie#1618`, `@Alon#3707`, or `@knownasilya#9990`) in the [Ember Discord](https://discord.gg/emberjs) chat in the `#adopted-ember-addons` channel and let them know what repo you'd like to transfer. 
 - Once they are aware, complete the Addon Transfer checklist (below).
 - after the checklist is complete, transfer the repo to them here on Github. 
 - The org owner is then responsible to transfer the addon to this org (Adopted Ember Addons). 
