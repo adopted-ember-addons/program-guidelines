@@ -37,4 +37,4 @@ By standardizing some aspects of maintaining addons we can ensure a consistent e
 	* Defer to the learning team's recommendations and [lerna-changelog](https://github.com/lerna/lerna-changelog)'s defaults.
 
 * Add a code of conduct to the repo
-	- You can read how to add the Contributor Covenant https://www.contributor-covenant.org/ to your repository here
+	- You can read how to add the Contributor Covenant here: [https://www.contributor-covenant.org/](https://www.contributor-covenant.org/)
