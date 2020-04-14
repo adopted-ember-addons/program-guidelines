@@ -38,3 +38,13 @@ By standardizing some aspects of maintaining addons we can ensure a consistent e
 
 * Add a code of conduct to the repo
 	- You can read how to add the Contributor Covenant here: [https://www.contributor-covenant.org/](https://www.contributor-covenant.org/)
+	
+## Hosting and Deployments
+
+While we don't enforce a single way to host and deploy addon docs, many of the addons in this org use Netlify to deploy and host the addon docs.
+
+<a href="https://www.netlify.com">
+  <img src="https://www.netlify.com/img/global/badges/netlify-color-accent.svg" alt="Deploys by Netlify" />
+</a>
+
+Another option is to use Github Pages.
