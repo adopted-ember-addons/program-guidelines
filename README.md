@@ -42,3 +42,20 @@ By standardizing some aspects of maintaining addons we can ensure a consistent e
 ## Hosting and Deployments
 
 If the addon provides a documentation or demo application, it should be deployed for easier accessibility. Either <a href="https://www.netlify.com">Netlify</a> or <a href="https://pages.github.com/">GitHub Pages</a> should be used for hosting.
+
+## Sponsors
+
+We like to thanks the companies, which infrastructure we could use for free:
+
+[
+  ![GitHub](https://github.githubassets.com/images/modules/logos_page/GitHub-Logo.png)
+](https://github.com/)
+
+[
+  ![Travis CI](https://travis-ci.com/images/logos/TravisCI-Full-Color.png)
+](https://travis-ci.org/)
+
+<!-- Netlify badge must be present on README of the repository per requirement of their Open Source plan -->
+[
+  ![Netlify](https://www.netlify.com/img/global/badges/netlify-color-accent.svg)
+](https://www.netlify.com)
