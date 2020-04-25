@@ -41,10 +41,4 @@ By standardizing some aspects of maintaining addons we can ensure a consistent e
 	
 ## Hosting and Deployments
 
-While we don't enforce a single way to host and deploy addon docs, many of the addons in this org use Netlify to deploy and host the addon docs.
-
-<a href="https://www.netlify.com">
-  <img src="https://www.netlify.com/img/global/badges/netlify-color-accent.svg" alt="Deploys by Netlify" />
-</a>
-
-Another option is to use Github Pages.
+If the addon provides a documentation or demo application, it should be deployed for easier accessibility. Either <a href="https://www.netlify.com">Nelify</a> or <a href="https://pages.github.com/">GitHub Pages</a> should be used for hosting.
