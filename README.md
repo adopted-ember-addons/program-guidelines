@@ -41,4 +41,4 @@ By standardizing some aspects of maintaining addons we can ensure a consistent e
 	
 ## Hosting and Deployments
 
-If the addon provides a documentation or demo application, it should be deployed for easier accessibility. Either <a href="https://www.netlify.com">Nelify</a> or <a href="https://pages.github.com/">GitHub Pages</a> should be used for hosting.
+If the addon provides a documentation or demo application, it should be deployed for easier accessibility. Either <a href="https://www.netlify.com">Netlify</a> or <a href="https://pages.github.com/">GitHub Pages</a> should be used for hosting.
