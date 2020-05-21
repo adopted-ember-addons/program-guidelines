@@ -41,10 +41,21 @@ By standardizing some aspects of maintaining addons we can ensure a consistent e
 	
 ## Hosting and Deployments
 
-While we don't enforce a single way to host and deploy addon docs, many of the addons in this org use Netlify to deploy and host the addon docs.
+If the addon provides a documentation or demo application, it should be deployed for easier accessibility. Either <a href="https://www.netlify.com">Netlify</a> or <a href="https://pages.github.com/">GitHub Pages</a> should be used for hosting.
 
-<a href="https://www.netlify.com">
-  <img src="https://www.netlify.com/img/global/badges/netlify-color-accent.svg" alt="Deploys by Netlify" />
-</a>
+## Sponsors
 
-Another option is to use Github Pages.
+We like to thanks the companies, which infrastructure we could use for free:
+
+[
+  ![GitHub](https://github.githubassets.com/images/modules/logos_page/GitHub-Logo.png)
+](https://github.com/)
+
+[
+  ![Travis CI](https://travis-ci.com/images/logos/TravisCI-Full-Color.png)
+](https://travis-ci.org/)
+
+<!-- Netlify badge must be present on README of the repository per requirement of their Open Source plan -->
+[
+  ![Netlify](https://www.netlify.com/img/global/badges/netlify-color-accent.svg)
+](https://www.netlify.com)
