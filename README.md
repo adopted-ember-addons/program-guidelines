@@ -47,6 +47,28 @@ This document uses the keywords *must*, *must not*, *should*, *should not* and *
 
 > This terminology is based on [RFC 2119](https://tools.ietf.org/html/rfc2119), which is used by many specification documents.
 
+### Release process
+
+All addons within the org should document their release process. The documentation should be located in `RELEASE.md` file in the root folder of the repository.
+
+[Release-it](https://github.com/release-it/release-it#release-it-) should be used to automate versioning and package publishing related tasks.
+
+Addons may use the setup script [create-rwjblue-release-it-setup](https://github.com/rwjblue/create-rwjblue-release-it-setup) provided by Robert Jackson (`@rwjblue`) to setup release-it and create the release documentation.
+
+### Versioning
+
+All addons with the org must use [semantic versioning](https://semver.org/) (SemVer).
+
+Dropping support for
+
+- specific versions of Ember packages (`ember-source`, `ember-cli` and `ember-data`) or other peer dependencies,
+- node releases or
+- browser targets
+
+must be considered as breaking changes. Such changes must not be released in minor or patch versions.
+
+Deprecations may be included in a minor or patch release before removing public APIs in the next major release.
+
 ### Changelog
 
 All addons within the org should have a changelog. The changelog may not cover versions that were released before it was introduced.
