@@ -47,6 +47,10 @@ This document uses the keywords *must*, *must not*, *should*, *should not* and *
 
 > This terminology is based on [RFC 2119](https://tools.ietf.org/html/rfc2119), which is used by many specification documents.
 
+### Continuous Integration
+
+All addons within the org should run tests and linting automatically for all pull requests _before_ merging them and for the main branch (e.g. `master`) after merging them. They must use GitHub Actions to do so.
+
 ### Release process
 
 All addons within the org should document their release process. The documentation should be located in `RELEASE.md` file in the root folder of the repository.
