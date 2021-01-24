@@ -49,7 +49,7 @@ This document uses the keywords *must*, *must not*, *should*, *should not* and *
 
 ### Continuous Integration
 
-All addons within the org should run tests and linting automatically for all pull requests _before_ merging them and for the main branch (e.g. `master`) after merging them. They must use GitHub Actions to do so.
+All addons within the org should run tests and linting automatically for all pull requests _before_ merging them and for the main branch (e.g. `master`) after merging them. They must use GitHub Actions to do so. The GitHub Actions CI workflow may be generated with [create-github-actions-setup-for-ember-addon](https://github.com/jelhan/create-github-actions-setup-for-ember-addon).
 
 ### Release process
 
