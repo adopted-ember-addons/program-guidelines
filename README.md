@@ -47,6 +47,10 @@ This document uses the keywords *must*, *must not*, *should*, *should not* and *
 
 > This terminology is based on [RFC 2119](https://tools.ietf.org/html/rfc2119), which is used by many specification documents.
 
+### Continuous Integration
+
+All addons within the org should run tests and linting automatically for all pull requests _before_ merging them and for the main branch (e.g. `master`) after merging them. They must use GitHub Actions to do so. The GitHub Actions CI workflow may be generated with [create-github-actions-setup-for-ember-addon](https://github.com/jelhan/create-github-actions-setup-for-ember-addon).
+
 ### Release process
 
 All addons within the org should document their release process. The documentation should be located in `RELEASE.md` file in the root folder of the repository.
@@ -102,10 +106,6 @@ We like to thanks the companies, which infrastructure we could use for free:
 [
   ![GitHub](https://github.githubassets.com/images/modules/logos_page/GitHub-Logo.png)
 ](https://github.com/)
-
-[
-  ![Travis CI](https://travis-ci.com/images/logos/TravisCI-Full-Color.png)
-](https://travis-ci.org/)
 
 <!-- Netlify badge must be present on README of the repository per requirement of their Open Source plan -->
 [
