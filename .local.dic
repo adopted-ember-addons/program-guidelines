@@ -4,3 +4,4 @@ create-rwjblue-release-it-setup
 ember-pikaday
 lerna-changelog
 lerna-changelog's
+formatter
