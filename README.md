@@ -65,7 +65,7 @@ All addons within the org should run tests and linting automatically for all pul
 
 All addons within the org should document their release process. The documentation should be located in `RELEASE.md` file in the root folder of the repository.
 
-[release-plan](https://github.com/embroider-build/release-plan) should be used to automate versioning and package publishing related tasks. This allows folks to manage releases fully within GitHub without needing to have access or keys distributed locally on individual's machines. For example, `release-plan` will crate a preview-PR [like this one](https://github.com/adopted-ember-addons/ember-sortable/pull/536) and once merged, release will happen automatically.
+[release-plan](https://github.com/embroider-build/release-plan) should be used to automate versioning and package publishing related tasks. This allows folks to manage releases fully within GitHub without needing to have access or keys distributed locally on individual's machines. For example, `release-plan` will create a preview-PR [like this one](https://github.com/adopted-ember-addons/ember-sortable/pull/536) and once merged, release will happen automatically.
 
 Addons may use the setup script [create-release-plan-setup](https://github.com/mansona/create-release-plan-setup) provided by Chris Manson (`@mansona`) to setup `release-plan` and create the release documentation. 
 
