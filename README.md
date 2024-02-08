@@ -18,7 +18,7 @@ These are the things that need to done to transfer your addon:
 - [ ] Update the `repository` field of the `package.json` to point to the new location.
 - [ ] If any demo URL or homepage is referenced, it should be updated. At the very least, file an issue on the repository so the adopter can fix.
 - [ ] Ensure Release practices are documented.
-- [ ] Add the adopted-ember-addons org owners (`melsumner`, `alonbukai`, or `knownasilya`) to the maintainers of the package on `npm`. Make sure they have all admin permissions. Remove inactive maintainers, if reasonable.
+- [ ] Add the adopted-ember-addons org owners (`melsumner`, `alonbukai`, or `knownasilya`) to the admins of the package on `npm`. _Make sure they have all admin permissions_. Remove inactive maintainers, if reasonable.
 
 ## Adopting an addon
 
