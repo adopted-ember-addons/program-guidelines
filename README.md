@@ -49,13 +49,9 @@ This document uses the keywords *must*, *must not*, *should*, *should not* and *
 
 ### Prettier
 
-All addon within the org should format the JavaScript code with [Prettier](https://prettier.io/). Prettier should be integrated as an [ESLint](https://eslint.org/) plugin. The setup and configuration should follow the [RFC 628](https://github.com/emberjs/rfcs/pull/628).
+All addons within the org should format JavaScript and Handlebars code with [Prettier](https://prettier.io/). Prettier should be integrated as an [ESLint](https://eslint.org/) plugin for JavaScrip and with [Ember Template Lint](https://github.com/ember-template-lint/ember-template-lint) for templates. The setup and configuration should follow the [RFC 628](https://github.com/emberjs/rfcs/pull/628).
 
 > Prettier is an opinionated code formatter. Using it prevents stylistic debates while maintaining addons within the org and helps both developers, reviewers and maintainers to focus on the problems the addon try to solve.
-
-Prettier should not be used to format templates (`*.hbs`) yet, due to issues with whitespace.
-
-> Prettier has experimental support for Glimmer templates. But it is not stable enough yet to be adopted by addons within the org. It's very likely that we will recommend using it for Glimmer templates as well as soon as it's stable enough. The progress is tracked in [this quest issue](https://github.com/jgwhite/prettier/issues/1).
 
 ### Continuous Integration
 
